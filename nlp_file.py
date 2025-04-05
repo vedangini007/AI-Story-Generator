@@ -6,8 +6,8 @@ Created on Sat Apr  5 17:41:03 2025
 """
 import google.generativeai as genai
 
-# Configure your Gemini API key
-genai.configure(api_key="AIzaSyDr4MDWpwfiyVbTn9lmM9BFOnB1mRpNa8I")  # Replace with your actual API key
+
+genai.configure(api_key="Replace with your actual API key")  
 
 def generate_story(context, model="gemini-2.0-flash"):
     model = genai.GenerativeModel(model)
